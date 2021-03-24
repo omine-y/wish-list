@@ -4,6 +4,8 @@
         <element label="Quantity" max_length="40" name="quantity" type="integer"/>
         <element attributes="encode_utf8=false" label="Requester" max_length="32" name="requester" reference="sys_user" type="reference"/>
         <element label="URL" max_length="1024" name="url" type="url"/>
+        <element label="New Data Structure" max_length="800" name="u_data_structure_2" type="data_structure"/>
+        <element attributes="edge_encryption_enabled=true" label="Display name" max_length="300" name="u_display_name_1" read_only="true" type="string"/>
         <index name="index">
             <element name="requester"/>
         </index>
